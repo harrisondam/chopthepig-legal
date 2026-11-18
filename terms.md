@@ -58,7 +58,7 @@ The game has in-game items and currencies, such as seeds (hạt dưa), lucky mon
 - Side bets and other wagers in the game use only in-game items. **The game offers no real-money gambling.**
 - I may change, rebalance, or remove virtual items, for example in updates, and progress may be reset if needed to fix problems. No refund or compensation is owed for that, except where the law requires it.
 
-If the game ever sells anything for real money (for example additional content), the store handles the purchase under its own terms and refund policy.
+If the game ever sells anything for real money (for example additional content), the store handles the purchase under its own terms and refund policy. The free Discord version sells card designs this way: each is a one-time purchase through Discord, under Discord's terms and refund policy, and it changes only how your cards look, never how the game plays.
 
 ## 4. Updates and feedback
 

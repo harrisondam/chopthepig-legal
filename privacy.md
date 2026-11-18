@@ -7,12 +7,12 @@ permalink: /privacy/
 
 **DRAFT for review by a lawyer. This is not legal advice.**
 
-Effective date: October 22, 2026
-Version 1
+Effective date: November 17, 2026
+Version 2
 
-Chop the Pig ("the game") is made and published by Harrison Dam, an individual developer ("I", "me"). This policy explains what information the game collects, why, where it goes, how long it is kept, and what you can do about it. It covers the game on Steam, other PC stores, Android, and iOS.
+Chop the Pig ("the game") is made and published by Harrison Dam, an individual developer ("I", "me"). This policy explains what information the game collects, why, where it goes, how long it is kept, and what you can do about it. It covers the game on Steam, other PC stores, Android, and iOS, and its free Discord version (the Discord Activity).
 
-The short version: **almost everything stays on your device.** The game has no ads, no analytics, and no tracking, and I do not run a server of my own. Information leaves your device only when you play online, and only so that online play, achievements, and leaderboards work. I never sell your information.
+The short version: **almost everything stays on your device.** The game has no ads, no analytics, and no tracking. The only server I run is a relay for the Discord version, which passes moves between the players at a table and keeps nothing. Information leaves your device only when you play online, and only so that online play, achievements, and leaderboards work. I never sell your information.
 
 ## 1. Information that stays on your device
 
@@ -43,7 +43,9 @@ Leaderboards are public: other players see your display name with your scores.
 
 **Other players.** At an online table, the game sends the other players your display name, your player id, your card design, your moves, your chat messages, and your quick reactions. Chat is filtered for bad language and limited in speed. Chat messages are passed along while you play and are not saved by me, Epic, or Valve, except in another player's own reports file if they report you. Tables connect players directly, through Epic's or Valve's relay servers, which can see your IP address as part of running the connection.
 
-**Steam (Valve).** On Steam, the game uses your Steam ID, Steam name, and Steam friends list to find your friends' tables, and sets your Steam "rich presence" so your Steam friends can see and join your table. Steam lobbies hold the same table details as EOS lobbies.
+**Steam (Valve).** On Steam, the game uses your Steam ID, Steam name, and Steam friends list to find your friends' tables (and, when you join a table, the game tells its host your Steam ID so a Friends only table can let in its host's Steam friends), and sets your Steam "rich presence" so your Steam friends can see and join your table. Steam lobbies hold the same table details as EOS lobbies.
+
+**The Discord version.** The free version of the game that runs inside Discord asks Discord to sign you in, and Discord shows you what it shares before you agree: your Discord account id, your Discord name, and your profile picture (the `identify` permission). The game uses your Discord name as your display name and your account id as your player id, and shows your profile picture to the others in your voice call's activity when you're watching (my relay fetches the picture from Discord for the game and keeps nothing). My relay server, which runs on Cloudflare, checks your sign-in with Discord when you sit at a table and passes your moves to the other players in your voice call's activity. It keeps nothing after the table closes: no names, ids, moves, or chat. The other players at the table see your Discord name, your moves, your chat messages, and your quick reactions, as at any online table. If you buy a card design in the Discord version, Discord handles the payment; the game learns only which designs you own (Discord's record of your purchases), never your payment details. The Discord version saves its settings in your browser's storage, not on my server. It does not use Epic Online Services, achievements, or leaderboards.
 
 **Stores.** Steam, Google Play, and the App Store handle buying and downloading the game and may collect information under their own policies. The game itself does not see your payment details.
 
@@ -62,6 +64,8 @@ Where the law needs a legal basis (for example the EU and UK GDPR): online featu
 - **Valve Corporation** runs Steam. Valve's privacy policy: https://store.steampowered.com/privacy_agreement/
 - **Google** runs Google Play: https://policies.google.com/privacy
 - **Apple** runs the App Store: https://www.apple.com/legal/privacy/
+- **Discord Inc.** runs Discord, where the Discord version is played: https://discord.com/privacy
+- **Cloudflare, Inc.** runs the servers my Discord relay is on: https://www.cloudflare.com/privacypolicy/
 - **Other players** at your tables, and anyone who views a leaderboard.
 - **Me**, only for what you send me yourself (feedback, crash reports, play-test zips, emails).
 
@@ -74,6 +78,7 @@ These companies may store information in the United States and other countries. 
 - Files on your device: until you delete them or uninstall the game. Feedback and crash folders keep only the newest 20.
 - EOS achievements, statistics, leaderboard entries, and your match history file: while the game's online services run, or until you ask me to delete them.
 - Lobbies: only while the table is open.
+- The Discord version's relay: only while the table is open; it keeps nothing afterwards.
 - Chat: not kept, except in another player's own reports file.
 - Feedback, crash reports, and play-test zips you send me: until the issue is fixed or the test is over, and no longer than 12 months.
 
